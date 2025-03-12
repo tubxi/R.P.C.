@@ -9,10 +9,11 @@ using BepInEx.Configuration;
 using BepInEx.Logging;
 using DiscordRPC;
 using DiscordRPC.Logging;
+using REPOPresence;
 
 namespace DiscordRPC.Example
 {
-    [BepInPlugin("com.example.REPOPresence", "REPO Presence Plugin", "1.0.0")]
+    [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     [BepInProcess("REPO.exe")]
     class Program : BaseUnityPlugin
     {
