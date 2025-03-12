@@ -14,7 +14,8 @@
           "BepInEx.PluginInfoProps": "1.1.0",
           "UnityEngine.Modules": "2022.3.9",
           "DiscordRPC": "1.2.1.24",
-          "REPO_ServerList": "1.0.0.0"
+          "REPO_ServerList": "1.0.0.0",
+          "Steamworks.NET": "2024.8.0.0"
         },
         "runtime": {
           "REPO Discord Rich Presence.dll": {}
@@ -369,6 +370,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Steamworks.NET/2024.8.0.0": {
+        "runtime": {
+          "Steamworks.NET.dll": {
+            "assemblyVersion": "2024.8.0.0",
+            "fileVersion": "2024.8.0.0"
+          }
+        }
       }
     }
   },
@@ -650,6 +659,11 @@
       "sha512": ""
     },
     "REPO_ServerList/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Steamworks.NET/2024.8.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

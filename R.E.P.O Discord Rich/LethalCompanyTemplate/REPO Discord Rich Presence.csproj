@@ -30,6 +30,9 @@
       <Reference Include="REPO_ServerList">
         <HintPath>C:\game\REPO\BepInEx\plugins\REPO_ServerList\REPO_ServerList.dll</HintPath>
       </Reference>
+      <Reference Include="Steamworks.NET">
+        <HintPath>C:\Users\tolik\Downloads\Steamworks.NET-Standalone_2024.8.0\Windows-x64\Steamworks.NET.dll</HintPath>
+      </Reference>
       <Reference Include="UnityEngine">
         <HintPath>C:\program1\steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.dll</HintPath>
       </Reference>

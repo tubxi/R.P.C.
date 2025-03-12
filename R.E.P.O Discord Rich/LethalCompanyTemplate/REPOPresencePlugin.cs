@@ -9,6 +9,7 @@ using BepInEx.Configuration;
 using BepInEx.Logging;
 using DiscordRPC;
 using DiscordRPC.Logging;
+using Steamworks;
 using REPOPresence;
 
 namespace DiscordRPC.Example
@@ -39,6 +40,9 @@ namespace DiscordRPC.Example
         private static int cursorIndex = 0;
         private static string previousCommand = "";
 
+        private static bool isSteamInitialized = false;
+        private static CSteamID steamID;
+
         private void Awake()
         {
             enableDiscordRPC = Config.Bind("General", "EnableDiscordRPC", true, "Enable or disable Discord Rich Presence");
@@ -52,6 +56,14 @@ namespace DiscordRPC.Example
             DontDestroyOnLoad(gameObject);
             LoggerInstance = Logger;
             LoggerInstance.LogInfo("R.E.P.O Discord Presence is starting...");
+
+            if (!SteamAPI.Init())
+            {
+                LoggerInstance.LogError("Failed to initialize Steam API.");
+                return;
+            }
+            isSteamInitialized = true;
+            steamID = SteamUser.GetSteamID();
 
             InitializeDiscordRPC();
         }
@@ -145,6 +157,12 @@ namespace DiscordRPC.Example
             else
             {
                 SetPresence("Exploring R.E.P.O", lastScene);
+            }
+
+            if (isSteamInitialized)
+            {
+                var steamName = SteamFriends.GetPersonaName();
+                SetPresence($"Playing as {steamName}", lastScene);
             }
         }
 
@@ -265,11 +283,13 @@ namespace DiscordRPC.Example
                 client.Dispose();
                 client = null;
             }
+            if (isSteamInitialized)
+            {
+                SteamAPI.Shutdown();
+            }
         }
     }
 }
-
-
 
 
 

@@ -43,3 +43,4 @@ T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCom
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Dis.9E08653F.Up2Date
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.dll
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.pdb
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\Steamworks.NET.dll
