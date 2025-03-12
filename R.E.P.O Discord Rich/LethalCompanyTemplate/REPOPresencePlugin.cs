@@ -11,6 +11,8 @@ using DiscordRPC;
 using DiscordRPC.Logging;
 using Steamworks;
 using REPOPresence;
+using DiscordRPC.Events;
+using REPO_Discord_Rich_Presence;
 
 namespace DiscordRPC.Example
 {
@@ -290,8 +292,6 @@ namespace DiscordRPC.Example
         }
     }
 }
-
-
 
 
 
