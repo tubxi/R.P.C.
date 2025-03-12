@@ -1,0 +1,11 @@
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\bin\Debug\netstandard2.1\EndCape.deps.json
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\bin\Debug\netstandard2.1\EndCape.dll
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\bin\Debug\netstandard2.1\EndCape.pdb
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\obj\Debug\netstandard2.1\EndCape.csproj.AssemblyReference.cache
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\obj\Debug\netstandard2.1\PluginInfo.cs
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\obj\Debug\netstandard2.1\EndCape.GeneratedMSBuildEditorConfig.editorconfig
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\obj\Debug\netstandard2.1\EndCape.AssemblyInfoInputs.cache
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\obj\Debug\netstandard2.1\EndCape.AssemblyInfo.cs
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\obj\Debug\netstandard2.1\EndCape.csproj.CoreCompileInputs.cache
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\obj\Debug\netstandard2.1\EndCape.dll
+T:\VisualStudioScripts\EndCap\LethalCompanyTemplate\obj\Debug\netstandard2.1\EndCape.pdb
