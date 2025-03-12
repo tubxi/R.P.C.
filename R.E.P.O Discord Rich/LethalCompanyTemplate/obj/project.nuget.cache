@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ulYbWmgjjy4=",
+  "dgSpecHash": "9kxuBpqxWO0=",
   "success": true,
-  "projectFilePath": "T:\\VisualStudioScripts\\R.E.P.O-Discord-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\REPO Discord Rich Presence.csproj",
+  "projectFilePath": "T:\\VisualStudioScripts\\REPO-Discord-Rich-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\REPO Discord Rich Presence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tolik\\.nuget\\packages\\bepinex.analyzers\\1.0.8\\bepinex.analyzers.1.0.8.nupkg.sha512",
     "C:\\Users\\tolik\\.nuget\\packages\\bepinex.baselib\\5.4.20\\bepinex.baselib.5.4.20.nupkg.sha512",

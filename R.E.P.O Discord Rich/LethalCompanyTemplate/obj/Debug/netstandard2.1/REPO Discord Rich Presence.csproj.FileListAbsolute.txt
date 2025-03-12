@@ -28,3 +28,18 @@ T:\VisualStudioScripts\R.E.P.O-Discord-Presence\R.E.P.O Discord Rich\LethalCompa
 T:\VisualStudioScripts\R.E.P.O-Discord-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\DiscordRPC.dll
 T:\VisualStudioScripts\R.E.P.O-Discord-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\REPO_ServerList.dll
 T:\VisualStudioScripts\R.E.P.O-Discord-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Dis.9E08653F.Up2Date
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\REPO Discord Rich Presence.deps.json
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\REPO Discord Rich Presence.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\REPO Discord Rich Presence.pdb
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\DiscordRPC.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\REPO_ServerList.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.csproj.AssemblyReference.cache
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\PluginInfo.cs
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.GeneratedMSBuildEditorConfig.editorconfig
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.AssemblyInfoInputs.cache
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.AssemblyInfo.cs
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.csproj.CoreCompileInputs.cache
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.sourcelink.json
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Dis.9E08653F.Up2Date
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.pdb

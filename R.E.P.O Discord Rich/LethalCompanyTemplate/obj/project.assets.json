@@ -2689,14 +2689,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "T:\\VisualStudioScripts\\R.E.P.O-Discord-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\REPO Discord Rich Presence.csproj",
+      "projectUniqueName": "T:\\VisualStudioScripts\\REPO-Discord-Rich-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\REPO Discord Rich Presence.csproj",
       "projectName": "REPO Discord Rich Presence",
-      "projectPath": "T:\\VisualStudioScripts\\R.E.P.O-Discord-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\REPO Discord Rich Presence.csproj",
+      "projectPath": "T:\\VisualStudioScripts\\REPO-Discord-Rich-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\REPO Discord Rich Presence.csproj",
       "packagesPath": "C:\\Users\\tolik\\.nuget\\packages\\",
-      "outputPath": "T:\\VisualStudioScripts\\R.E.P.O-Discord-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\obj\\",
+      "outputPath": "T:\\VisualStudioScripts\\REPO-Discord-Rich-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "T:\\VisualStudioScripts\\R.E.P.O-Discord-Presence\\R.E.P.O Discord Rich\\NuGet.Config",
+        "T:\\VisualStudioScripts\\REPO-Discord-Rich-Presence\\R.E.P.O Discord Rich\\NuGet.Config",
         "C:\\Users\\tolik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
