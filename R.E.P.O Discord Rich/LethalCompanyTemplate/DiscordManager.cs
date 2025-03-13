@@ -14,6 +14,7 @@ namespace REPOPresence
         private void Start()
         {
             InitializeDiscordRPC();
+            SetDefaultPresence();
         }
 
         private void InitializeDiscordRPC()
@@ -49,7 +50,13 @@ namespace REPOPresence
             client.SetPresence(presence);
 
             SceneManager.sceneLoaded += OnSceneLoaded;
+            Application.logMessageReceived += HandleLog;
             REPOPresencePlugin.logger.LogInfo("Discord RPC Initialized.");
+        }
+
+        private void SetDefaultPresence()
+        {
+            SetPresence("In Main Menu", "Just Chill", ConfigManager.MainMenuLargeImage.Value);
         }
 
         private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
@@ -61,13 +68,21 @@ namespace REPOPresence
             {
                 SetPresence("In Main Menu", "Just Chill", ConfigManager.MainMenuLargeImage.Value);
             }
-            else if (currentScene.Contains("Level"))
+        }
+
+        private void HandleLog(string logString, string stackTrace, LogType type)
+        {
+            if (logString.Contains("Changed level to: Level - Lobby Menu"))
             {
-                SetPresence("In Game", currentScene, ConfigManager.InGameLargeImage.Value);
+                SetPresence("In Lobby", "Waiting for players", ConfigManager.InLobbyLargeImage.Value);
             }
-            else
+            else if (logString.Contains("Changed level to: Level - "))
             {
-                SetPresence("Exploring REPO", currentScene, ConfigManager.InGameLargeImage.Value);
+                SetPresence("In Game", "Playing", ConfigManager.InGameLargeImage.Value);
+            }
+            else if (logString.Contains("Created lobby on Network Connect") || logString.Contains("Steam: Hosting lobby"))
+            {
+                SetPresence("In Lobby", "Waiting for players", ConfigManager.InLobbyLargeImage.Value);
             }
         }
 
@@ -92,6 +107,7 @@ namespace REPOPresence
                 client = null;
                 REPOPresencePlugin.logger.LogInfo("Discord RPC client disposed.");
             }
+            Application.logMessageReceived -= HandleLog;
         }
     }
 }

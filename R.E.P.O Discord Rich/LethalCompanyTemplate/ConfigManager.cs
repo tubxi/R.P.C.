@@ -18,6 +18,7 @@ namespace REPOPresence
         public static ConfigEntry<bool> DisplayLivingPlayers { get; private set; }
 
         public static ConfigEntry<string> MainMenuLargeImage { get; private set; }
+        public static ConfigEntry<string> InLobbyLargeImage { get; private set; }
         public static ConfigEntry<string> InGameLargeImage { get; private set; }
         public static ConfigEntry<string> InGameLargeText { get; private set; }
 
@@ -30,7 +31,7 @@ namespace REPOPresence
         {
             AppID = config.Bind(
                 "General",
-                "1349755295974428692",
+                "1349755295974428692", // Updated AppID
                 1349755295974428692,
                 "The Discord App ID for this game."
             );
@@ -57,21 +58,28 @@ namespace REPOPresence
             ActivityState = config.Bind(
                 "Presence",
                 "ActivityState",
-                "In Game",
+                "In Main Menu",
                 "The state of the rich presence."
             );
 
             MainMenuLargeImage = config.Bind(
                 "Presence.MainMenu",
                 "LargeImage",
-                "mainmenu",
+                "57dabf5f530a90fdca068426714bc61f20b3e22ae4a5526b32d490d86fc8a33c", // Updated Image Key
+                "The large image key for the rich presence."
+            );
+
+            InLobbyLargeImage = config.Bind(
+                "Presence.InLobby",
+                "LargeImage",
+                "57dabf5f530a90fdca068426714bc61f20b3e22ae4a5526b32d490d86fc8a33c", // Updated Image Key for lobby
                 "The large image key for the rich presence."
             );
 
             InGameLargeImage = config.Bind(
                 "Presence.InGame",
                 "LargeImage",
-                "ingame",
+                "57dabf5f530a90fdca068426714bc61f20b3e22ae4a5526b32d490d86fc8a33c", // Updated Image Key
                 "The large image key for the rich presence."
             );
             InGameLargeText = config.Bind(
