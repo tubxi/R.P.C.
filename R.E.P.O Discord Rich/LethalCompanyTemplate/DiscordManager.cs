@@ -2,7 +2,6 @@
 using DiscordRPC;
 using DiscordRPC.Logging;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace REPOPresence
 {
@@ -49,7 +48,6 @@ namespace REPOPresence
             };
             client.SetPresence(presence);
 
-            SceneManager.sceneLoaded += OnSceneLoaded;
             Application.logMessageReceived += HandleLog;
             REPOPresencePlugin.logger.LogInfo("Discord RPC Initialized.");
         }
@@ -57,17 +55,6 @@ namespace REPOPresence
         private void SetDefaultPresence()
         {
             SetPresence("In Main Menu", "Just Chill", ConfigManager.MainMenuLargeImage.Value);
-        }
-
-        private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-        {
-            string currentScene = scene.name;
-            REPOPresencePlugin.logger.LogInfo($"Scene loaded: {currentScene}");
-
-            if (currentScene == "Main")
-            {
-                SetPresence("In Main Menu", "Just Chill", ConfigManager.MainMenuLargeImage.Value);
-            }
         }
 
         private void HandleLog(string logString, string stackTrace, LogType type)
@@ -78,7 +65,8 @@ namespace REPOPresence
             }
             else if (logString.Contains("Changed level to: Level - "))
             {
-                SetPresence("In Game", "Playing", ConfigManager.InGameLargeImage.Value);
+                string levelName = logString.Split(new string[] { "Changed level to: Level - " }, StringSplitOptions.None)[1];
+                SetPresence($"In Game: {levelName}", "Playing", ConfigManager.InGameLargeImage.Value);
             }
             else if (logString.Contains("Created lobby on Network Connect") || logString.Contains("Steam: Hosting lobby"))
             {
