@@ -72,6 +72,10 @@ namespace REPOPresence
             {
                 SetPresence("In Lobby", "Waiting for players", ConfigManager.InLobbyLargeImage.Value);
             }
+            else if (logString.Contains("Leave to Main Menu"))
+            {
+                SetPresence("In Main Menu", "Just Chill", ConfigManager.MainMenuLargeImage.Value);
+            }
         }
 
         private void SetPresence(string details, string state, string largeImageKey)
