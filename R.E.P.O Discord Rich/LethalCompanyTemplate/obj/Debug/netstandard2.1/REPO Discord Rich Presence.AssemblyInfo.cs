@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A template for Lethal Company")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68291db4e79f16672237cb29d15fef3b1086ef89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3de56da0cbb2948d0385b942f848f4da27446631")]
 [assembly: System.Reflection.AssemblyProductAttribute("REPO Discord Rich Presence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("REPO Discord Rich Presence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
