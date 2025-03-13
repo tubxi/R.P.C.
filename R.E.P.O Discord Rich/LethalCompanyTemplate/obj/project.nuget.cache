@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9kxuBpqxWO0=",
+  "dgSpecHash": "bgNgkw9uIJk=",
   "success": true,
   "projectFilePath": "T:\\VisualStudioScripts\\REPO-Discord-Rich-Presence\\R.E.P.O Discord Rich\\LethalCompanyTemplate\\REPO Discord Rich Presence.csproj",
   "expectedPackageFiles": [
@@ -41,7 +41,7 @@
     "C:\\Users\\tolik\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\tolik\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\tolik\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\tolik\\.nuget\\packages\\unityengine.modules\\2022.3.9\\unityengine.modules.2022.3.9.nupkg.sha512"
+    "C:\\Users\\tolik\\.nuget\\packages\\unityengine.modules\\2022.3.21\\unityengine.modules.2022.3.21.nupkg.sha512"
   ],
   "logs": []
 }

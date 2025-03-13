@@ -44,3 +44,15 @@ T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCom
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.dll
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.pdb
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\Steamworks.NET.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\UnityEditor.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\Unity.Cecil.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\Bee.BeeDriver2.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\Bee.BinLog.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\PlayerBuildProgramLibrary.Data.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\Bee.TinyProfiler2.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\ExCSS.Unity.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\Unity.CompilationPipeline.Common.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\ScriptCompilationBuildProgram.Data.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\BeeBuildProgramCommon.Data.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\System.CodeDom.dll
+T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\UnityEditor.xml
