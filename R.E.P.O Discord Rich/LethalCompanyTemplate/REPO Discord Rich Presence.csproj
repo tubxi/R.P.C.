@@ -13,7 +13,7 @@
         <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
         <PackageReference Include="BepInEx.Core" Version="5.*" />
         <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
-      <PackageReference Include="UnityEngine.Modules" Version="2022.3.21" IncludeAssets="compile" />
+        <PackageReference Include="UnityEngine.Modules" Version="2022.3.21" IncludeAssets="compile" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
@@ -27,14 +27,8 @@
       <Reference Include="DiscordRPC">
         <HintPath>C:\Users\tolik\Downloads\Tiramitzu-SupermarketPresence-1.0.0\DiscordRPC.dll</HintPath>
       </Reference>
-      <Reference Include="REPO_ServerList">
-        <HintPath>C:\game\REPO\BepInEx\plugins\REPO_ServerList\REPO_ServerList.dll</HintPath>
-      </Reference>
-      <Reference Include="Steamworks.NET">
-        <HintPath>C:\Users\tolik\Downloads\Steamworks.NET-Standalone_2024.8.0\Windows-x64\Steamworks.NET.dll</HintPath>
-      </Reference>
-      <Reference Include="UnityEditor">
-        <HintPath>C:\program1\Unity 2022.3.9f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <Reference Include="UnityEngine">
+        <HintPath>C:\program1\steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.dll</HintPath>
       </Reference>
     </ItemGroup>
 
