@@ -1,6 +1,6 @@
 {
     "name": "REPODiscordRichPresence",
-    "version_number": "0.1.0",
+    "version_number": "0.1.1",
     "website_url": "https://github.com/Toliann",
     "description": "R.E.P.O. Discord Rich Presence support",
     "dependencies": [

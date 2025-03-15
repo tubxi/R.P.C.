@@ -23,3 +23,6 @@ Thanks to [Grimgar](https://www.youtube.com/channel/UCPLRVtdWzuBcTAqssRfUa5g) fo
 Thanks to [Andrey Mrovol](https://github.com/AndreyMrovol) for the original code base of [LethalRichPresence](https://github.com/AndreyMrovol/LethalRichPresence) - [MIT License](https://github.com/AndreyMrovol/LethalRichPresence/blob/main/LICENSE), which was a major inspiration and foundation for this mod.
 
 Thanks to [Lachee](https://github.com/Lachee/discord-rpc-csharp) for the DiscordRPC.dll
+
+### My discord - tolian
+- My discord server - [Tolian Serv](https://discord.gg/ybjPfxCKZX)
