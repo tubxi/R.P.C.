@@ -76,6 +76,11 @@ namespace REPOPresence
             {
                 SetPresence("In Main Menu", "Just Chill", ConfigManager.MainMenuLargeImage.Value);
             }
+            else if (logString.Contains("updated level to: Level - "))
+            {
+                string levelName = logString.Split(new string[] { "updated level to: Level - " }, StringSplitOptions.None)[1];
+                SetPresence($"In Game: {levelName}", "Playing", ConfigManager.InGameLargeImage.Value);
+            }
         }
 
         private void SetPresence(string details, string state, string largeImageKey)
