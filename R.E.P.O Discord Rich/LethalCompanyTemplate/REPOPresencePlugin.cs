@@ -10,12 +10,10 @@ namespace REPOPresence
     public class REPOPresencePlugin : BaseUnityPlugin
     {
         internal static ManualLogSource logger;
-        private ConfigManager configManager;
 
         private void Awake()
         {
             logger = Logger;
-            ConfigManager.Init(Config);
 
             GameObject discordGameObject = new GameObject();
             discordGameObject.AddComponent<DiscordManager>();

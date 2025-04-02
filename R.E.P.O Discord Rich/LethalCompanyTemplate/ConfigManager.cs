@@ -2,15 +2,9 @@
 
 namespace REPOPresence
 {
-    public class ConfigManager
+    class ConfigManager
     {
         public static ConfigManager Instance { get; private set; }
-
-        public static void Init(ConfigFile config)
-        {
-            Instance = new ConfigManager(config);
-        }
-
         public static ConfigEntry<long> AppID { get; private set; }
         public static ConfigEntry<bool> AllowJoin { get; private set; }
         public static ConfigEntry<string> MainMenuLargeImage { get; private set; }
@@ -20,69 +14,29 @@ namespace REPOPresence
         public static ConfigEntry<string> ActivityState { get; private set; }
         public static ConfigEntry<string> ActivityDetails { get; private set; }
         public static ConfigEntry<bool> Debug { get; private set; }
+        public static ConfigEntry<string> ServiceStationImage { get; private set; }
+        public static ConfigEntry<string> HeadmanManorImage { get; private set; }
+        public static ConfigEntry<string> SwiftbroomAcademyImage { get; private set; }
+        public static ConfigEntry<string> McJannekStationImage { get; private set; }
+        public static ConfigEntry<string> DisposalArenaImage { get; private set; }
 
-        private ConfigManager(ConfigFile config)
+        public static void Init(ConfigFile config)
         {
-            AppID = config.Bind(
-                "General",
-                "1349755295974428692",
-                1349755295974428692,
-                "The Discord App ID for this game."
-            );
-
-            AllowJoin = config.Bind(
-                "Party",
-                "AllowJoin",
-                true,
-                "Allow players to join your game from Discord."
-            );
-
-            ActivityDetails = config.Bind(
-                "Presence",
-                "ActivityDetails",
-                "Playing REPO",
-                "The details of the rich presence."
-            );
-            ActivityState = config.Bind(
-                "Presence",
-                "ActivityState",
-                "In Main Menu",
-                "The state of the rich presence."
-            );
-
-            MainMenuLargeImage = config.Bind(
-                "Presence.MainMenu",
-                "LargeImage",
-                "57dabf5f530a90fdca068426714bc61f20b3e22ae4a5526b32d490d86fc8a33c",
-                "The large image key for the rich presence."
-            );
-
-            InLobbyLargeImage = config.Bind(
-                "Presence.InLobby",
-                "LargeImage",
-                "57dabf5f530a90fdca068426714bc61f20b3e22ae4a5526b32d490d86fc8a33c",
-                "The large image key for the rich presence."
-            );
-
-            InGameLargeImage = config.Bind(
-                "Presence.InGame",
-                "LargeImage",
-                "57dabf5f530a90fdca068426714bc61f20b3e22ae4a5526b32d490d86fc8a33c",
-                "The large image key for the rich presence."
-            );
-            InGameLargeText = config.Bind(
-                "Presence.InGame",
-                "LargeText",
-                "In Game",
-                "The large image tooltip for the rich presence."
-            );
-
-            Debug = config.Bind(
-                "Debug",
-                "Debug logs",
-                false,
-                "Enable debug logging."
-            );
+            Instance = new ConfigManager();
+            AppID = config.Bind("General", "1349755295974428692", 1349755295974428692, "Discord Application ID");
+            AllowJoin = config.Bind("General", "AllowJoin", true, "Allow others to join your game");
+            MainMenuLargeImage = config.Bind("Images", "MainMenuLargeImage", "embedded_cover", "Main menu large image key");
+            InLobbyLargeImage = config.Bind("Images", "InLobbyLargeImage", "embedded_cover", "Lobby large image key");
+            InGameLargeImage = config.Bind("Images", "InGameLargeImage", "embedded_cover", "In-game large image key");
+            InGameLargeText = config.Bind("Images", "InGameLargeText", "Playing R.E.P.O", "In-game large image text");
+            ActivityState = config.Bind("Activity", "ActivityState", "Playing", "Activity state text");
+            ActivityDetails = config.Bind("Activity", "ActivityDetails", "In Game", "Activity details text");
+            Debug = config.Bind("General", "Debug", false, "Enable debug logging");
+            ServiceStationImage = config.Bind("Images", "ServiceStationImage", "service_station", "Service Station image key");
+            HeadmanManorImage = config.Bind("Images", "HeadmanManorImage", "headman_manor", "Headman Manor image key");
+            SwiftbroomAcademyImage = config.Bind("Images", "SwiftbroomAcademyImage", "swiftbroom_academy", "Swiftbroom Academy image key");
+            McJannekStationImage = config.Bind("Images", "McJannekStationImage", "mcjannek_station", "McJannek Station image key");
+            DisposalArenaImage = config.Bind("Images", "DisposalArenaImage", "disposal_arena", "Disposal Arena image key");
         }
     }
 }

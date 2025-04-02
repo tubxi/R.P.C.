@@ -25,7 +25,7 @@
         <HintPath>C:\NEWERALLL\Ad\0Harmony.dll</HintPath>
       </Reference>
       <Reference Include="DiscordRPC">
-        <HintPath>C:\Users\tolik\Downloads\Tiramitzu-SupermarketPresence-1.0.0\DiscordRPC.dll</HintPath>
+        <HintPath>..\..\Thunderstore\DiscordRPC.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine">
         <HintPath>C:\program1\steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.dll</HintPath>

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace REPOPresence
 {
-    public class DiscordManager : MonoBehaviour
+    class DiscordManager : MonoBehaviour
     {
         private static DiscordRpcClient client;
         private static RichPresence presence;
@@ -19,7 +19,7 @@ namespace REPOPresence
         private void InitializeDiscordRPC()
         {
             REPOPresencePlugin.logger.LogInfo("Initializing Discord RPC...");
-            client = new DiscordRpcClient(ConfigManager.AppID.Value.ToString())
+            client = new DiscordRpcClient("1349755295974428692")
             {
                 Logger = new ConsoleLogger(DiscordRPC.Logging.LogLevel.Warning)
             };
@@ -37,11 +37,11 @@ namespace REPOPresence
 
             presence = new RichPresence()
             {
-                Details = ConfigManager.ActivityDetails.Value,
-                State = ConfigManager.ActivityState.Value,
+                Details = "In Game",
+                State = "Playing",
                 Assets = new Assets()
                 {
-                    LargeImageKey = ConfigManager.MainMenuLargeImage.Value,
+                    LargeImageKey = "embedded_cover",
                     LargeImageText = "R.E.P.O"
                 },
                 Timestamps = new Timestamps(DateTime.UtcNow)
@@ -54,57 +54,76 @@ namespace REPOPresence
 
         private void SetDefaultPresence()
         {
-            SetPresence("In Main Menu", "Just Chill", ConfigManager.MainMenuLargeImage.Value);
+            REPOPresencePlugin.logger.LogInfo("Setting default presence: Main Menu");
+            SetPresence("In Main Menu", "Just Chill", "embedded_cover");
         }
 
         private void HandleLog(string logString, string stackTrace, LogType type)
         {
             if (logString.Contains("Changed level to: Level - Lobby Menu"))
             {
-                SetPresence("In Lobby", "Waiting for players", ConfigManager.InLobbyLargeImage.Value);
+                REPOPresencePlugin.logger.LogInfo("Setting presence: In Lobby");
+                SetPresence("In Lobby", "Waiting for players", "embedded_cover");
             }
             else if (logString.Contains("Changed level to: Level - "))
             {
                 string levelName = logString.Split(new string[] { "Changed level to: Level - " }, StringSplitOptions.None)[1];
-                SetPresence($"In Game: {levelName}", "Playing", ConfigManager.InGameLargeImage.Value);
+                string imageKey = GetLevelImageKey(levelName);
+                REPOPresencePlugin.logger.LogInfo($"Setting presence: In Game - {levelName}");
+                SetPresence($"In Game: {levelName}", "Playing", imageKey);
             }
             else if (logString.Contains("Created lobby on Network Connect") || logString.Contains("Steam: Hosting lobby"))
             {
-                SetPresence("In Lobby", "Waiting for players", ConfigManager.InLobbyLargeImage.Value);
+                REPOPresencePlugin.logger.LogInfo("Setting presence: In Lobby");
+                SetPresence("In Lobby", "Waiting for players", "embedded_cover");
             }
             else if (logString.Contains("Leave to Main Menu"))
             {
-                SetPresence("In Main Menu", "Just Chill", ConfigManager.MainMenuLargeImage.Value);
+                REPOPresencePlugin.logger.LogInfo("Setting presence: Main Menu");
+                SetPresence("In Main Menu", "Just Chill", "embedded_cover");
             }
             else if (logString.Contains("updated level to: Level - "))
             {
                 string levelName = logString.Split(new string[] { "updated level to: Level - " }, StringSplitOptions.None)[1];
-                SetPresence($"In Game: {levelName}", "Playing", ConfigManager.InGameLargeImage.Value);
+                string imageKey = GetLevelImageKey(levelName);
+                REPOPresencePlugin.logger.LogInfo($"Setting presence: In Game - {levelName}");
+                SetPresence($"In Game: {levelName}", "Playing", imageKey);
+            }
+        }
+
+        private string GetLevelImageKey(string levelName)
+        {
+            switch (levelName)
+            {
+                case "Lobby Menu":
+                    return "embedded_cover";
+                case "Manor":
+                    return "headman_manor";
+                case "Wizard":
+                    return "swiftbroom_academy";
+                case "Service Station":
+                    return "service_station";
+                case "Arctic":
+                    return "mcjannek_station";
+                case "Arena":
+                    return "disposal_arena";
+                default:
+                    return "embedded_cover";
             }
         }
 
         private void SetPresence(string details, string state, string largeImageKey)
         {
-            if (presence != null)
-            {
-                presence.Details = details;
-                presence.State = state;
-                presence.Assets.LargeImageKey = largeImageKey;
-                client.SetPresence(presence);
-                REPOPresencePlugin.logger.LogInfo($"Presence set: {details}, {state}");
-            }
+            presence.Details = details;
+            presence.State = state;
+            presence.Assets.LargeImageKey = largeImageKey;
+            client.SetPresence(presence);
+            REPOPresencePlugin.logger.LogInfo($"Presence set: {details}, {state}, {largeImageKey}");
         }
 
         private void OnDestroy()
         {
-            REPOPresencePlugin.logger.LogInfo("OnDestroy called. Checking if Discord RPC needs to be disposed.");
-            if (client != null)
-            {
-                client.Dispose();
-                client = null;
-                REPOPresencePlugin.logger.LogInfo("Discord RPC client disposed.");
-            }
-            Application.logMessageReceived -= HandleLog;
+            client.Dispose();
         }
     }
 }
