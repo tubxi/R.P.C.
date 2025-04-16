@@ -107,6 +107,10 @@ namespace REPOPresence
                     return "mcjannek_station";
                 case "Arena":
                     return "disposal_arena";
+                case "Stronghold":
+                    return "stronghold";
+                case "Hospital":
+                    return "hospital";
                 default:
                     return "embedded_cover";
             }

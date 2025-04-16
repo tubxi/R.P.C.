@@ -8,6 +8,6 @@ namespace REPOPresence
     {
         public const string PLUGIN_GUID = "com.toliann.repopresence";
         public const string PLUGIN_NAME = "R.E.P.O Discord Presence";
-        public const string PLUGIN_VERSION = "0.1.5";
+        public const string PLUGIN_VERSION = "0.1.6";
     }
 }

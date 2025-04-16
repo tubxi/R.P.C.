@@ -14,6 +14,7 @@ Install via [r2modman](https://thunderstore.io/c/repo/p/ebkr/r2modman/) or [Gale
 download the mod >>> BeplnEx>plugins>
 
 ![Screenshot1](https://raw.githubusercontent.com/Toliann/REPO-Discord-Rich-Presence/refs/heads/main/Thunderstore/Screenshot/1.png)
+![Screenshot1](https://raw.githubusercontent.com/Toliann/REPO-Discord-Rich-Presence/refs/heads/main/Thunderstore/Screenshot/2.png)
 
 
 ## Credits
