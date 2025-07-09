@@ -19,7 +19,7 @@ namespace REPOPresence
         private void InitializeDiscordRPC()
         {
             REPOPresencePlugin.logger.LogInfo("Initializing Discord RPC...");
-            client = new DiscordRpcClient("1349755295974428692")
+            client = new DiscordRpcClient("1392298682422005940")
             {
                 Logger = new ConsoleLogger(DiscordRPC.Logging.LogLevel.Warning)
             };
