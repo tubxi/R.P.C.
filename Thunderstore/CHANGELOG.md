@@ -1,13 +1,12 @@
-- 0.1.6 Rebuild
+# Changelog 1.0.2
 
-- 0.1.5 disabled config(temporarily), added level pictures
+- Change the "README.md"
+- Change the Screenshot
 
-- 0.1.4 Fixed initialisation
+# Changelog 1.0.1
 
-- 0.1.3 Fixed problem with ‘waiting for players’ when you are on a level
+- Change name R.P.C. to REPO RPC (because i can't put point in the name)
 
-- 0.1.2 Stabilisation
+# Changelog 1.0.0
 
-- 0.1.1 DiscordRPC updated
-
-- 0.1.0 Release 
+- Just Release

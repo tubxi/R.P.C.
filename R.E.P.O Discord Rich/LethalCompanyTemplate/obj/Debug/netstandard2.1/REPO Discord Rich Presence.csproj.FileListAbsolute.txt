@@ -42,3 +42,17 @@ T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCom
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Dis.9E08653F.Up2Date
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.dll
 T:\VisualStudioScripts\REPO-Discord-Rich-Presence\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.pdb
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\REPO Discord Rich Presence.deps.json
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\REPO Discord Rich Presence.dll
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\REPO Discord Rich Presence.pdb
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\bin\Debug\netstandard2.1\DiscordRPC.dll
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.csproj.AssemblyReference.cache
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\PluginInfo.cs
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.AssemblyInfoInputs.cache
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.AssemblyInfo.cs
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.csproj.CoreCompileInputs.cache
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.sourcelink.json
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Dis.9E08653F.Up2Date
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.dll
+C:\Users\hoche\Documents\GitHub\R.P.C\R.E.P.O Discord Rich\LethalCompanyTemplate\obj\Debug\netstandard2.1\REPO Discord Rich Presence.pdb
