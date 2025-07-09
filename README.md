@@ -6,7 +6,7 @@ It's a fork of [R.E.P.O Discord Presence](https://github.com/Toliann/REPO-Discor
 
 ## Installation
 
-Install via [r2modman](https://thunderstore.io/c/repo/p/ebkr/r2modman/) or [Gale](https://thunderstore.io/c/lethal-company/p/Kesomannen/GaleModManager/)
+Install via [r2modman](https://thunderstore.io/c/repo/p/Tubix/REPO_RPC/)
 
  or 
 
