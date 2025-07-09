@@ -12,7 +12,7 @@ Install via [r2modman](https://thunderstore.io/c/repo/p/ebkr/r2modman/) or [Gale
 
 download the mod >>> BeplnEx/plugins/
 
-![Screenshot1](https://github.com/user-attachments/assets/b41475ac-d7ad-4c96-99d8-45f63ab115cc)
+![Screenshot1](https://github.com/user-attachments/assets/a93acce3-3543-482a-8e85-76a7151997f4)
 
 ## Credits
 
